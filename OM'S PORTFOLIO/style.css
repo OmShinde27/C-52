@@ -1,0 +1,126 @@
+h1{ color: rgb(0, 0, 0);
+margin-left: 100px;
+
+
+}
+
+.header * {
+    border:solid;
+}
+
+
+.header {
+
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+a:link{
+
+color:white;
+}
+
+a:visited{
+
+color:red;
+}
+.menu {
+margin-right: 30px;
+
+}
+.menu a{
+    margin-left: 30px;
+    
+}
+
+/** {border:solid}*/
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+
+}
+.item{position: relative;
+
+}
+.item p{
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+opacity: 0.33;
+    
+}
+
+.footer{
+
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+      
+}
+
+p, h2{text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+body{
+background-color: #808080;
+
+border-bottom-color: #ffe4c4; 
+ 
+
+
+}
+
+
+/*  
+
+rgb (255,255,255) #FFFFFF
+rgb(0,0,0) #000000
+rgb(128,128,128) grey 
+// Any number raised to the power of 0 = 1
+Decimal  system .. base is 10 
+digits 0-9 
+
+56= 50+6
+ = 5* 10^1+6*10^0
+
+ 123= 100+20+3
+ =1x10^2+2x10^1+3x10^0
+345= 300+40+5= 3x10^2+ 4x10^1+5x10^0
+
+
+ 255=200+50+5
+  2x10^2+5x10^1+5x10^0
+
+  Binary system -- we use 2 dits -- 0 & 1 -- base is 2 
+
+  101= 1x2^2+0x2^1+1x2^0= 4+0+1= 5
+
+  Hexadecimal ==16 digits  Hex(6)+ decimal(10) digits 0-9
+  A : 10
+B: 11
+C: 12
+D: 13
+E: 14
+F: 15
+
+hexadecimal system digits  will be from 0-F
+
+AD= Ax16^1+Dx16^0= 10x16+13x1= 160+13=173
+FE= fx16^1+Ex16^0 = 15x16 + 14x1 = 240+14 = 254
+FF= fx16^1+fx16^0 = 15x16 + 15x1 = 240+15 = 255
+
+255/16=> Q=15 (F) R=15 (F) FF*/
